@@ -19,7 +19,7 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=8
 
   main.innerHTML = nameValue;
   desc.innerHTML = "Description - "+descValue;
-  temp.innerHTML = "Temperature - "+tempValue+"&#8451;";
+  temp.innerHTML = "Temperature - "+tempValue+"degree Celsius";
   humidity.innerHTML = "Humidity - "+humidityValue;
   country.innerHTML = "Country - "+countryValue;
   input.value ="";
